@@ -1,0 +1,267 @@
+:root {
+    --primary-text-color: #434455;
+    --tittle-color: #2E2F42;
+    --primary-white-color: #F4F4FD;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+} 
+.list {
+    list-style: none;
+}
+.header {
+}
+
+
+/* --------Site nav-------- */
+
+
+.header-navigation {
+}
+.header-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--tittle-color);
+text-decoration: none;
+}
+.header-span {
+color: #4D5AE5;
+}
+.header-logo:hover,
+.header-logo:focus {
+color: azure;
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-decoration: none;
+}
+.header-link:hover{
+color: #434455;
+}
+.header-link:focus {
+color: #4D5AE5;
+}
+
+
+/* --------Contacts-------- */
+
+
+.address-list {
+display: flex;
+}
+.address-anchor {
+display: block;
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+text-decoration: none;
+}
+.tel {
+text-transform: uppercase;
+}
+.address-anchor:hover,
+.address-anchor:focus {
+color: #4D5AE5;
+}
+
+
+
+/* --------Effective solutions-------- */
+
+
+.bussiness {
+    background-color: #2E2F42;;
+}
+.bussiness-tittle {
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.bussiness-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+.bussiness-btn:hover,
+.bussiness-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+
+/* --------What we offer-------- */
+
+
+.offers {
+}
+.offers-list {
+}
+.offers-item {
+}
+.offers-tittle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--tittle-color);
+}
+.offers-after-tittle {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+
+/* --------What are we doing-------- */
+
+
+.job {
+}
+.job-tittle{
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--tittle-color);
+}
+.job-list {
+}
+.job-item {
+}
+
+
+/* --------Our team-------- */
+
+
+.team {
+}
+.team-tittle {
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--tittle-color);
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-tittle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--tittle-color);
+}
+.team-after-tittle {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+
+/* --------PORTFOLIO-------- */
+
+
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+color: #FFFFFF;
+background-color: #404BBF;
+}
+.portfolio-tittle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--tittle-color);
+}
+.portfolio-after-tittle {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+
+/* --------footer-------- */
+
+
+.footer {
+    background-color: #2E2F42;;
+}
+.footer-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+text-decoration: none;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+    color: azure;
+}
+.footer-span{
+color: #4D5AE5; 
+}
+.footer-tittle {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
