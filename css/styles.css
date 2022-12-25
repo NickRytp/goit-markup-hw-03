@@ -1,6 +1,6 @@
 :root {
     --primary-text-color: #434455;
-    --tittle-color: #2E2F42;
+    --title-color: #2E2F42;
     --primary-white-color: #F4F4FD;
 }
 body{
@@ -10,6 +10,23 @@ body{
 } 
 .list {
     list-style: none;
+}
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.btn{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
 .header {
 }
@@ -29,15 +46,15 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--tittle-color);
+color: #4D5AE5;
 text-decoration: none;
 }
 .header-span {
-color: #4D5AE5;
+color: var(--title-color);
 }
-.header-logo:hover,
-.header-logo:focus {
-color: azure;
+.header-span:hover,
+.header-span:focus {
+color: #4D5AE5;
 }
 .header-list {
 }
@@ -90,7 +107,7 @@ color: #4D5AE5;
 .bussiness {
     background-color: #2E2F42;;
 }
-.bussiness-tittle {
+.bussiness-title {
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -98,16 +115,8 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .bussiness-btn {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: #4D5AE5;
-cursor: pointer;
 }
 .bussiness-btn:hover,
 .bussiness-btn:focus {
@@ -125,14 +134,9 @@ cursor: pointer;
 }
 .offers-item {
 }
-.offers-tittle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--tittle-color);
+.offers-title {
 }
-.offers-after-tittle {
+.offers-after-title {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -145,13 +149,13 @@ color: var(--primary-text-color);
 
 .job {
 }
-.job-tittle{
+.job-title{
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--tittle-color);
+color: var(--title-color);
 }
 .job-list {
 }
@@ -164,27 +168,22 @@ color: var(--tittle-color);
 
 .team {
 }
-.team-tittle {
+.team-title {
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--tittle-color);
+color: var(--title-color);
 }
 .team-list {
 }
 .team-item {
 }
-.team-item-tittle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+.team-item-title {
 text-align: center;
-letter-spacing: 0.02em;
-color: var(--tittle-color);
 }
-.team-after-tittle {
+.team-after-title {
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -203,30 +202,17 @@ color: var(--primary-text-color);
 .portfolio-item {
 }
 .portfolio-btn {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
 color: #FFFFFF;
 background-color: #4D5AE5;
-cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
 color: #FFFFFF;
 background-color: #404BBF;
 }
-.portfolio-tittle {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--tittle-color);
+.portfolio-title {
 }
-.portfolio-after-tittle {
+.portfolio-after-title {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -249,17 +235,17 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: #4D5AE5;
 text-decoration: none;
 }
-.footer-logo:hover,
-.footer-logo:focus {
-    color: azure;
-}
+.footer-span:hover,
+.footer-span:focus {
+    color: #4D5AE5;
+}a
 .footer-span{
-color: #4D5AE5; 
+color: #F4F4FD; 
 }
-.footer-tittle {
+.footer-title {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
