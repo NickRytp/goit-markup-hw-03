@@ -288,12 +288,15 @@ color: var(--primary-text-color);
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
 }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
 }
 .portfolio-item {
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
 }
 .portfolio-btn {
 min-width: 116px;
