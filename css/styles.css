@@ -7,6 +7,9 @@ body{
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 } 
+img{
+    display: block;
+}
 p,
 h1,
 h2,
@@ -269,22 +272,25 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     gap: 24px;
 }
-.team-item {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+.container-team{
+    border:0.5px solid #f4f4f4;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+     0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
+.team-item {
+    background: #FFFFFF;
+    text-align: center;
+}
 .team-item-title {
-text-align: center;
 margin-top: 32px;
 margin-bottom: 8px;
 }
 .team-after-title {
+margin-bottom: 32px;
 font-size: 16px;
 line-height: 1.5;
-text-align: center;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
@@ -326,9 +332,11 @@ color: var(--primary-text-color);
     row-gap: 48px;
     align-items: flex-start;
 }
+.container-portfolio{
+    border:0.5px solid #f4f4f4;
+}
 .portfolio-item {
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 .portfolio-title {
     margin-top: 32px;
