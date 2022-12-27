@@ -333,19 +333,20 @@ color: var(--primary-text-color);
     align-items: flex-start;
 }
 .container-portfolio{
-    border:0.5px solid #f4f4f4;
+    padding-top: 32px;
+    padding-left: 16px;
+    border-left: 0.5px solid #f4f4f4;
+    border-right:  0.5px solid #f4f4f4;
+    border-bottom:  0.5px solid #f4f4f4;
 }
 .portfolio-item {
     background: #FFFFFF;
 }
 .portfolio-title {
-    margin-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
 }
 .portfolio-after-title {
     margin-bottom: 32px;
-    padding-left: 16px;
 }
 
 
